@@ -7,9 +7,7 @@ import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/v1_0_0/l
 import {FunctionsSource} from "./FunctionsSource.sol";
 
 /**
- * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
- * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
- * DO NOT USE THIS CODE IN PRODUCTION.
+ * Non-audited contract.
  */
 contract RealEstatePriceDetails is FunctionsClient, FunctionsSource, OwnerIsCreator {
     using FunctionsRequest for FunctionsRequest.Request;
